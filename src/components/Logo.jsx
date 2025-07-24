@@ -7,7 +7,8 @@ const Logo = () => {
      <a href='/Asadullah.pdf' target="_blank" rel="noopener noreferrer"
         className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-400 to-emerald-600
                    text-white rounded-xl py-3 px-5 shadow-md hover:shadow-xl transition duration-300 transform
-                   hover:-translate-y-1 hover:from-gray-900 hover:to-black hover:border-e-rose-50"
+                   hover:-translate-y-1 hover:from-gray-900 hover:to-black hover:border hover:border-solid hover:border-e-rose-50
+"
       >
         <DocumentTextIcon className="h-5 w-5 mr-2" />
         Resume
@@ -17,7 +18,8 @@ const Logo = () => {
         to="/projects"
         className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-400 to-emerald-600
                    text-white rounded-xl py-3 px-5 shadow-md hover:shadow-xl transition duration-300 transform
-                   hover:-translate-y-1 hover:from-gray-900 hover:to-black hover:border-e-rose-50"
+                   hover:-translate-y-1 hover:from-gray-900 hover:to-black hover:border hover:border-solid hover:border-e-rose-50
+"
       >
         <CodeBracketIcon className="h-5 w-5 mr-2" />
         Projects
