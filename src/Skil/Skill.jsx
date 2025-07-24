@@ -97,7 +97,7 @@ const Skill = () => {
       </div>
 
       {/* Grid of Skill Cards */}
-       <div className="w-full h-70 rounded-sm bg-[#212121]  flex gap-[5px] p-1.5 overflow-hidden">
+       <div className="w-full h-70 rounded-sm  flex gap-[5px] p-1.5 overflow-hidden">
       {skills.map((skill, index) => (
         <div
           key={index}
@@ -105,11 +105,11 @@ const Skill = () => {
           onMouseLeave={() => setHovered(null)}
           className={`h-full transition-all duration-500 ease-in-out
                       flex justify-center items-center
-                      rounded-sm cursor-pointer border ${skill.BorderColor} ${skill.hoverBg} bg-[#212121]
+                      rounded-sm cursor-pointer border ${skill.BorderColor} ${skill.hoverBg} bg-transparent
                       ${hovered === null ? 'w-[140px]' : hovered === index ? 'w-[460px]' : 'w-[200px]'}`}
         >
           <span
-            className={`transition-all duration-500 origin-left text-pink-400 uppercase tracking-wide text-xs
+            className={`transition-all duration-500 origin-left uppercase tracking-wide text-xs
                         ${hovered === index ? 'rotate-0 px-2' : '-rotate-90 text-[10px]'}`}>
                           {hovered === index ? (
   <img
